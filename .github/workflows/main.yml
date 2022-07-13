@@ -28,7 +28,7 @@
             run: npm i -g notablog && notablog generate .
           # 2、部署到 GitHub Pages
           - name: Deploy
-            uses: JamesIves/github-pages-deploy-action@v4.2.5
+            uses: JamesIves/github-pages-deploy-action@v4
             with:
               token: ${{ secrets.ACCESS_TOKEN }}
               repository-name: scoyzhao/scoyzhao.github.io # 修改这里
